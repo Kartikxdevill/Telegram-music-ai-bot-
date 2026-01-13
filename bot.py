@@ -4,7 +4,7 @@ import yt_dlp, os
 import google.generativeai as genai
 from gtts import gTTS
 
-TOKEN = os.getenv("8232345435:AAG-vN7eVuH8H_ST92XFeKTvBICpXSSZIaQ")
+TOKEN = os.getenv("8232345435:AAGlHZCx078kNhWJes1ECaGyj7S69X0nS5o")
 genai.configure(api_key=os.getenv("AIzaSyBqBatEAqsBWMzfIQ65aqT3YeCEY9gAbJ0"))
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
